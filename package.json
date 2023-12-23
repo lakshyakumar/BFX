@@ -1,0 +1,17 @@
+{
+  "name": "bfx",
+  "version": "1.0.0",
+  "description": "Creating simplified p2p exchange",
+  "main": "index.js",
+  "scripts": {
+    "script": "node ./index.js",
+    "server": "node ./server.js",
+    "client": "node ./client.js"
+  },
+  "author": "github/lakshyakumar",
+  "license": "ISC",
+  "dependencies": {
+    "grenache-nodejs-link": "^1.0.0",
+    "grenache-nodejs-ws": "^0.7.10"
+  }
+}
